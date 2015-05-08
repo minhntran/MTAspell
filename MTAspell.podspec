@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "MTAspell"
-  s.authors      = "Minh Tran"
+  s.author       = "Minh Tran"
   s.version      = "1.0.1"
   s.summary      = "GNU Aspell 0.60.6.1 put in convenient pod package ready to be used with CocoaPods."
-
+  s.license      = { :type => "GNU" }
   s.description  = <<-DESC
                    GNU Aspell is a Free and Open Source spell checker designed to 
                    eventually replace Ispell. It can either be used as a library or as an 
