@@ -4,3 +4,6 @@ This is based on GNU Aspell version 0.60.6.1. There are minor changes so the cod
 To use this, simply add this line in Podfile:
 
 pod 'MTAspell'
+
+Aspell source codes and documentation can be found here: http://aspell.net/
+

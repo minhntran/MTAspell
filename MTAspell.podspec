@@ -1,8 +1,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "MTAspell"
-  s.version      = "1.0.0"
-  s.summary      = "Aspell library put together conveniently in a pod package."
+  s.authors      = "Minh Tran"
+  s.version      = "1.0.1"
+  s.summary      = "GNU Aspell 0.60.6.1 put in convenient pod package ready to be used with CocoaPods."
 
   s.description  = <<-DESC
                    GNU Aspell is a Free and Open Source spell checker designed to 
@@ -20,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/minhntran/MTAspell"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/minhntran/MTAspell.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/minhntran/MTAspell.git", :tag => "v1.0.1" }
   s.source_files  = "Aspell", "aspell/**/*.{h,m}"
   s.public_header_files = "aspell/**/*.h"
   s.requires_arc = false
